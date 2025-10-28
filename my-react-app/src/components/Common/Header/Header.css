@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.navbar div {
+    align-items: center;
+}
+
+.navbar li {
+    align-items: center;
+}
+
+#navbar {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 8px 12px;
+}
+
+.navbar_menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+    align-items: center;
+    gap: 20px; 
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer; 
+    font-size: 23px;
+}
+ul {
+    justify-content: center;
+}
+
+.navbar_menu li {
+    text-align: center;
+    padding: 0 10px; 
+}
