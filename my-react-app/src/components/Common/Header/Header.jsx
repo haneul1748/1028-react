@@ -20,7 +20,8 @@ const Header = () => {
                     <li><a href="/01">01</a></li>
                     <li><a href="/02">02</a></li>
                     <li><a href="/03">03</a></li>
-                    <li><a href="/">존재x</a></li>
+                    <li><a href="/input">input</a></li>
+                    <li><a href="/foods">부산</a></li>
                 </ul>
             </div>
             </header>

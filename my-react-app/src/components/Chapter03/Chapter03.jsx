@@ -15,6 +15,7 @@
             React쓰면서 유용하게 사용할 수 있는 내장함수
 */
 import { useState } from "react";
+import Chapter03_2 from "./Chapter03_2";
 
 const Chapter03 = () => {
     //  let count = 0;
@@ -69,6 +70,10 @@ const Chapter03 = () => {
             <br />
             <h3>{count}</h3>
             <button onClick={onClickButton}>나 클릭하면 숫자 증가함</button>
+        
+            <hr />
+            
+            <Chapter03_2 />
         </>
     )
 }
