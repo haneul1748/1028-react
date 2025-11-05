@@ -39,7 +39,7 @@ const Detail = () => {
             return;
         }
         /* 이런저런 유효성 검사 */
-        axios.post(`http://localhost/spring/api/comments`, {
+        axios.post(`http://localhost/api/comments`, {
             foodNo : id,
             content : content,
         }).then((result) => {
@@ -51,7 +51,7 @@ const Detail = () => {
 
 
     useEffect(() => {
-        axios.get(`http://localhost/spring/api/busan/detail/${id}`)
+        axios.get(`http://localhost/api/busan/detail/${id}`)
             .then((result) => {
                 // console.log(result);
                 const response = result.data.getFoodKr.item[0];
@@ -113,7 +113,7 @@ const Detail = () => {
             <div style={{width:"50%", margin:"0 auto", height:"60px"}}>
                 <form onSubmit={submitHandler}>
                     <input type="text" placeholder="후기를 남겨주세요." onChange={contentHandler}/>
-                    <button>후기 넘기기</button>
+                    <button>후기 남기기</button>
                 </form>
             </div>
             <>
